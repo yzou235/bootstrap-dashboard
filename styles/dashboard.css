@@ -6,6 +6,8 @@ body {
     min-height: 100vh;
 }
 
+/* Begin of side bar styling */
+
 .sidebar {
     position: absolute;
     top: 0;
@@ -26,10 +28,6 @@ body {
     color:white;
 }
 
-ul {
-    
-}
-
 .nav-item a.nav-link {
     text-decoration: none;
     color: white;
@@ -46,3 +44,18 @@ ul {
     background-color: #4eb3e1; /* Change the hover background color to red */
     color: white; /* Change the hover text color to white */
 }
+
+/* End of side bar styling */
+
+/* Begin of main panel styling */
+
+.main-panel {
+    width: calc(100% - 260px);
+    float: right;
+}
+
+.main-panel .navbar {
+    height: 72px;
+}
+
+/* End of main panel styling */
