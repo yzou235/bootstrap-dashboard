@@ -56,6 +56,11 @@ body {
 
 .main-panel .navbar {
     height: 72px;
+    background-color: #f1f1f1;
+}
+
+.card {
+    margin: 24px;
 }
 
 /* End of main panel styling */
